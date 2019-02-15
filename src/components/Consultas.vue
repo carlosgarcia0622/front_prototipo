@@ -21,12 +21,12 @@
             <td>{{response.Record.owner}}</td>
             <td>{{response.Record.state}}</td>
           </tr>
-
+                 
         
           
         </tbody>
       </table>
-     <span >checkedMedicines: {{checkedMedicines}}  
+     <!-- <span >checkedMedicines: {{checkedMedicines}}  </span>
       <span>{{checkedMedicinesString}}</span>-->
       <div>
         <button v-on:click="Search()">Buscar</button>
